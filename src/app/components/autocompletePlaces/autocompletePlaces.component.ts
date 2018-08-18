@@ -13,7 +13,7 @@ export interface State {
   templateUrl: './autocompletePlaces.component.html',
   styleUrls: ['./autocompletePlaces.component.css']
 })
-export class AutocompletePlacesComponent implements OnInit {
+export class AutocompletePlacesComponent {
   stateCtrl = new FormControl();
   filteredStates: Observable<State[]>;
 
